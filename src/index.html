@@ -13,17 +13,17 @@
     <link rel="shortcut icon" href="./4geeks.ico" />
   </head>
   <body>
-    <div class="container-fluid text-center">
-      <h1 class="mt-5">Hello Rigo!</h1>
-      <img src="./rigo-baby.jpg" />
-      <p class="alert alert-warning mt-4">
-        If this text is <b>not</b> centered and <b>yellow</b>, you probably have
-        an error
-      </p>
-      <div class="fixed-bottom p-4">
-        Made with ❤️ by
-        <a href="https://www.4geeksacademy.com">4Geeks Academy</a>
-      </div>
+    <!--Body-->
+    <div class="container-fluid text-center w-75 border rounded my-5">
+      <!--Titulo-->
+      <h1 class="mt-3">Excuse Generator</h1>
+      <h1 id="excuseText" class="mt-3 py-2 border border-danger">
+        My dog ate my homework
+      </h1>
+      <button id="bttnExcuse" class="my-3">Generate new excuse</button>
     </div>
+
+    <!--Script-->
+    <script type="text/javascript" src="/src/app.js"></script>
   </body>
 </html>
